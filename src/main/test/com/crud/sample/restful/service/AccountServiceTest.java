@@ -120,7 +120,7 @@ public class AccountServiceTest {
     }
 
     @Test
-    public void findAllWithFilter(){
+    public void findAllWithoutFilter(){
         List<Account> accounts = new ArrayList<>();
         Account account = new Account();
         account.setId(1L);
@@ -147,7 +147,7 @@ public class AccountServiceTest {
     }
 
     @Test
-    public void findAllWithoutFilter(){
+    public void findAllWithFilter(){
         List<Account> accounts = new ArrayList<>();
         Account account = new Account();
         account.setId(1L);
